@@ -53,9 +53,9 @@
     
         <div id = "title"> <h1> How many players are there? </h1> </div>
         <div>
-           <a  href = "#4pgame" data-role = "button"><img src = "4p.png"></a>
-            <a  href = "#5pgame" data-role = "button"><img src = "5p.png"></a>
-            <a  href = "#6pgame" data-role = "button"><img src = "6p.png"></a>
+           <a  href = "#4pStart" data-role = "button"><img src = "4p.png"></a>
+            <a  href = "#5pStart" data-role = "button"><img src = "5p.png"></a>
+            <a  href = "#6pStart" data-role = "button"><img src = "6p.png"></a>
         </div>
   
   
@@ -63,25 +63,26 @@
      <a  href = "#pageone" data-role = "button">Return!</a>
   </div>
     
-</div> 
+</div>
     
     
 <!-- 4P GAME -->
-    <div data-role="page" id="4pgame">
+    <div data-role="page" id="4pStart">
     
         <div id = "title"> <h1> Designate Colours! </h1> </div>
   
   
   <div>
+      
      <img src = "4pC.png">
-     <a  href = "#pageone" data-role = "button">Begin Game!</a>
+     <a  href = "#4pGame" data-role = "button">Begin Game!</a>
   </div>
     
 </div> 
     
  
 <!-- 5P GAME -->
-    <div data-role="page" id="5pgame">
+    <div data-role="page" id="5pStart">
     
         <div id = "title"> <h1> Designate Colours! </h1> </div>
   
@@ -94,7 +95,7 @@
 </div>
     
 <!-- 6P GAME -->
-<div data-role="page" id="6pgame">
+<div data-role="page" id="6pStart">
     
         <div id = "title"> <h1> Designate Colours! </h1> </div>
   
@@ -106,5 +107,27 @@
     
 </div>
     
+<!-- GAME PAGES -->
+<!--4P GAME-->
+<div data-role="page" id="4pGame">
+    
+<div id = "title"> <h1> <u>THE</u> Drinking Game!</h1> </div>
+  
+
+    <div id = "4pColour"></div>
+    <div> <p id = "diceTest"> </p></div>
+  <div>
+     <a  href = "#pageone" data-role = "button">Next!</a>
+  </div>
+    
+</div>
+
+    
 </body>
 </html>
+
+
+
+
+
+
