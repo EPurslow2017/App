@@ -33,10 +33,9 @@
        
 </head>
 <body>
-
     
 <!--START PAGE -->
-<div data-role="page" id="pageone">
+<div data-role="page" id="start">
     
   <div id = "title"> <h1> <u>THE</u> Drinking Game!</h1></div>
    <p> </p>
@@ -60,7 +59,7 @@
   
   
   <div>
-     <a  href = "#pageone" data-role = "button">Return!</a>
+     <a  href = "#start" data-role = "button">Return!</a>
   </div>
     
 </div>
@@ -89,7 +88,7 @@
   
   <div>
      <img src = "5pC.png">
-     <a  href = "#pageone" data-role = "button">Begin Game!</a>
+     <a  href = "#5pGame" data-role = "button">Begin Game!</a>
   </div>
     
 </div>
@@ -102,7 +101,7 @@
   
   <div>
      <img src = "6pC.png">
-     <a  href = "#pageone" data-role = "button">Begin Game!</a>
+     <a  href = "#6pGame" data-role = "button">Begin Game!</a>
   </div>
     
 </div>
@@ -113,15 +112,60 @@
     
 <div id = "title"> <h1> <u>THE</u> Drinking Game!</h1> </div>
   
-
-    <div id = "4pColour"></div>
-    <div> <p id = "diceTest"> </p></div>
+<img id = "4pColour">
+<p id = "4pDrink"></p>
+  
   <div>
-     <a  href = "#pageone" data-role = "button">Next!</a>
+      <button id = "rollPlayer" onclick = 'rolledPlayer4P()'> Roll Player </button>
   </div>
+     
+   <div>
+      <button id = "rollDrink" onclick = 'rolledDrink4P()'> Roll </button>
+  </div>
+    
+   <a  href = "#start" data-role = "button">Return to Start!</a>
+    
+</div>
+    
+<!--5P GAME-->
+<div data-role="page" id="5pGame">
+    
+<div id = "title"> <h1> <u>THE</u> Drinking Game!</h1> </div>
+  
+<img id = "5pColour">
+<p id = "5pDrink"></p>
+  
+  <div>
+      <button id = "rollPlayer" onclick = 'rolledPlayer5P()'> Roll Player </button>
+  </div>
+     
+   <div>
+      <button id = "rollDrink" onclick = 'rolledDrink5P()'> Roll </button>
+  </div>
+    
+   <a  href = "#start" data-role = "button">Return to Start!</a>
     
 </div>
 
+<!--6P GAME -->
+<div data-role="page" id="6pGame">
+    
+<div id = "title"> <h1> <u>THE</u> Drinking Game!</h1> </div>
+  
+<img id = "6pColour">
+<p id = "6pDrink"></p>
+  
+  <div>
+      <button id = "rollPlayer" onclick = 'rolledPlayer6P()'> Roll Player </button>
+  </div>
+     
+   <div>
+      <button id = "rollDrink" onclick = 'rolledDrink6P()'> Roll </button>
+  </div>
+    
+   <a  href = "#start" data-role = "button">Return to Start!</a>
+    
+</div>
     
 </body>
 </html>
