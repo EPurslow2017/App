@@ -16,7 +16,7 @@ function rolledPlayer4P() {
 };
 function rolledDrink4P() {
    var drinkRoll = Math.ceil(Math.random()*15);
-   document.getElementById('4pDrink').innerHTML = drinkRoll; 
+   document.getElementById('4pDrink').innerHTML = "You have to drink " + drinkRoll + " times!"; 
 };
 
 
@@ -41,7 +41,7 @@ function rolledPlayer5P() {
 };
 function rolledDrink5P() {
    var drinkRoll = Math.ceil(Math.random()*15);
-   document.getElementById('5pDrink').innerHTML = drinkRoll; 
+   document.getElementById('5pDrink').innerHTML = "You have to drink " + drinkRoll + " times!"; 
 };
 
 
@@ -69,7 +69,7 @@ function rolledPlayer6P() {
 };
 function rolledDrink6P() {
    var drinkRoll = Math.ceil(Math.random()*15);
-   document.getElementById('6pDrink').innerHTML = drinkRoll; 
+   document.getElementById('6pDrink').innerHTML = "You have to drink " + drinkRoll + " times!"; 
 };
 
 
